@@ -1,0 +1,45 @@
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: silver;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+li a:hover:not(.active) {
+  background-color: lightyellow;
+}
+
+.active {
+  background-color:orange;
+}
+body {
+
+    text-align: center;
+    background-color:lightblue;
+    background-image: url('ElementalistLux.gif');
+    background-size:100% ;
+    
+  }
+
+  h1{
+    text-transform: uppercase;
+    font-family:papyrus;
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size:5vw;
+    }
+    
